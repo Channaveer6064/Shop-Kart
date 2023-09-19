@@ -1,0 +1,107 @@
+.product-listing {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  overflow: hidden;
+  position: relative;
+}
+.product-listing-title {
+  padding: 4rem 4rem 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-listing-title > h1 {
+  text-transform: capitalize;
+  color: var(--black-color);
+  font-family: Syne;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+#arrow-container > img {
+  margin-right: 5rem;
+}
+.star-4 {
+  position: absolute;
+  top: 10.1rem;
+  left: 3rem;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.product-listing-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4rem;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: max-content;
+  margin-top: 1rem;
+}
+.sidebar > button {
+  background: transparent;
+  border: none;
+  padding: 1rem;
+  color: var(--primary-color);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--Grey-scale-1000, #000);
+  width: max-content;
+  cursor: pointer;
+}
+.product-cards-container {
+  display: flex;
+  margin: 2rem auto 7rem 5rem;
+  overflow-x: scroll;
+}
+
+@media (max-width: 480px) {
+  .product-listing-title {
+    padding: 1rem 0 1rem 1rem;
+  }
+  .product-listing-title > h1 {
+    width: 100vw;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 125.6%;
+  }
+  .product-listing-title > span {
+    display: none;
+  }
+  .star-4 {
+    position: absolute;
+    top: 3.5rem;
+    left: 5px;
+    width: 22px;
+    height: 22px;
+  }
+  .product-listing-content {
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  .sidebar {
+    flex-direction: row;
+    margin-top: 0;
+  }
+  .sidebar > button {
+    padding: 0;
+    padding-left: 0.6rem;
+    font-size: 14px;
+  }
+  .product-cards-container {
+    margin: 2rem auto 5rem 0;
+    overflow-x: scroll;
+  }
+}

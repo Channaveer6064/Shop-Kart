@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #1a1a1a;
+  --secondary-color: #626262;
+  --black-color: #161615;
+  --white-color: #fff;
+  --orange-color: #f07e15;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100vh;
+  width: 100vw;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

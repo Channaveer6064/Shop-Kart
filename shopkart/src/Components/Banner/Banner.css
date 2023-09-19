@@ -1,0 +1,154 @@
+.banner-container {
+  background-color: var(--black-color);
+  position: relative;
+}
+.banner-reactangle-1 {
+  width: 100vw;
+  height: 80vh;
+}
+.banner-container > h1 > span {
+  text-transform: capitalize;
+  color: var(--white-color);
+  font-family: Syne;
+  font-size: 135px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 102.6px;
+  z-index: 2;
+}
+#fresh {
+  position: absolute;
+  bottom: 44vh;
+  left: 13vw;
+}
+#year {
+  position: absolute;
+  bottom: 32vh;
+  left: 29vw;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--white-color);
+  -webkit-text-fill-color: transparent;
+}
+#look {
+  position: absolute;
+  bottom: 20vh;
+  left: 16vw;
+}
+.banner-reactangle-2 {
+  position: absolute;
+  right: 0;
+  bottom: 10vh;
+  width: 70vw;
+  height: 38vh;
+  background: var(--orange-color);
+}
+#model-img {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.9;
+  right: 20vw;
+  bottom: 0;
+  background: transparent;
+}
+#jacket-details {
+  position: absolute;
+  right: 15vw;
+  bottom: 9rem;
+  display: flex;
+  flex-direction: column;
+  color: #161615;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#star-2 {
+  z-index: 1;
+  position: absolute;
+  bottom: 5rem;
+  left: 61vw;
+  color: var(--white-color);
+}
+#star-3 {
+  position: absolute;
+  z-index: -0.5;
+  right: 18vw;
+  color: var(--white-color);
+  top: 8vh;
+}
+#line-2 {
+  z-index: 1;
+  position: absolute;
+  bottom: 7.8rem;
+  width: 63vw;
+  color: var(--white-color);
+}
+.banner-btn {
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  bottom: 7vh;
+  left: 13vw;
+  background: transparent;
+  border: 1px solid var(--white-color);
+}
+.banner-btn > span {
+  color: var(--white-color);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.banner-btn > span ::first-letter {
+  text-transform: uppercase;
+}
+.banner-btn > img {
+  background-color: transparent;
+}
+
+@media (max-width: 480px) {
+  .banner-reactangle-2 {
+    width: 100vw;
+  }
+  #model-img {
+    right: -5rem;
+  }
+  #star-3 {
+    right: -5rem;
+  }
+  .banner-container > h1 > span {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125.6%;
+  }
+  .banner-menubar {
+    display: none;
+  }
+  #fresh {
+    bottom: 30vh;
+    left: 5vw;
+  }
+  #year {
+    bottom: 25vh;
+    left: 20vw;
+  }
+  #look {
+    bottom: 20vh;
+    left: 10vw;
+  }
+  #star-2 {
+    left: 31vw;
+  }
+  #line-2 {
+    width: 62vw;
+  }
+  .banner-btn {
+    bottom: 6vh;
+    left: 5vw;
+  }
+}
