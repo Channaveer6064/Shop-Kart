@@ -64,7 +64,7 @@
 .product-cards-container {
   display: flex;
   margin: 2rem auto 7rem 5rem;
-  overflow-x: scroll;
+  overflow: scroll;
 }
 
 @media (max-width: 480px) {
@@ -102,6 +102,6 @@
   }
   .product-cards-container {
     margin: 2rem auto 5rem 0;
-    overflow-x: scroll;
+    overflow: scroll;
   }
 }

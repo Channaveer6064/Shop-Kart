@@ -5,7 +5,7 @@
   width: 100vw;
   background-color: var(--primary-color);
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
   margin-top: -4px;
 }
 .footer-container > p {

@@ -9,7 +9,6 @@ export const Banner = () => {
   } = useData();
   return (
     <div className="banner-container">
-      <img src="/img/Rectangle.png" className="banner-reactangle-1" />{" "}
       <Header />
       <div className="banner-menubar">
         {" "}
@@ -17,7 +16,6 @@ export const Banner = () => {
       </div>
       {!toggleMenubar ? (
         <>
-          {" "}
           <h1>
             <span id="fresh">fresh</span>
             <span id="year">2022</span>

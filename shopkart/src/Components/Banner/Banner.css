@@ -1,11 +1,11 @@
 .banner-container {
+  background-image: url(./../../../public/img/Rectangle.png);
   background-color: var(--black-color);
   position: relative;
-}
-.banner-reactangle-1 {
   width: 100vw;
   height: 80vh;
 }
+
 .banner-container > h1 > span {
   text-transform: capitalize;
   color: var(--white-color);
@@ -48,7 +48,7 @@
   opacity: 0.9;
   right: 20vw;
   bottom: 0;
-  background: transparent;
+  /* background-image: transparent; */
 }
 #jacket-details {
   position: absolute;

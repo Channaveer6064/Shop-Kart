@@ -17,3 +17,6 @@
   margin: 0;
   box-sizing: border-box;
 }
+.NavLink {
+  text-decoration: none;
+}
