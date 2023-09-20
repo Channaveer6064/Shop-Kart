@@ -5,7 +5,7 @@ export default function NewsLetter() {
     <div className="newsletter-container">
       <div className="newsletter-form-container">
         <div>
-          <span id="newsletter-text">Newslleter</span>
+          <span id="newsletter-text">Newsletter</span>
           <p>
             Get news about articles and updates
             <br />

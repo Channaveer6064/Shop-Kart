@@ -16,17 +16,18 @@ export const Banner = () => {
       </div>
       {!toggleMenubar ? (
         <>
+          {" "}
           <h1>
             <span id="fresh">fresh</span>
             <span id="year">2022</span>
             <span id="look">look</span>
           </h1>
           <div className="banner-reactangle-2"></div>
-          <img src="/img/model.png" id="model-img" />
           <p id="jacket-details">
             <span>oregon jacket</span>
             <span>$ 124</span>
           </p>
+          <img src="/img/model.png" id="model-img" />
           <img src="/img/star-3.png" id="star-3" />
           <img src="/img/star-2.png" id="star-2" />
           <img src="/img/line-2.png" id="line-2" />

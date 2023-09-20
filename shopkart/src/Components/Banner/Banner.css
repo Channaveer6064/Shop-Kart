@@ -35,20 +35,27 @@
   left: 16vw;
 }
 .banner-reactangle-2 {
+  z-index: 1;
   position: absolute;
   right: 0;
   bottom: 10vh;
   width: 70vw;
   height: 38vh;
   background: var(--orange-color);
+  isolation: isolate;
+}
+.banner-reactangle-2 > img {
+  position: absolute;
+  bottom: -5rem;
+  right: 20vw;
+  mix-blend-mode: normal;
 }
 #model-img {
   position: absolute;
-  z-index: 1;
+  z-index: 4;
   opacity: 0.9;
   right: 20vw;
   bottom: 0;
-  /* background-image: transparent; */
 }
 #jacket-details {
   position: absolute;
@@ -74,7 +81,7 @@
 }
 #star-3 {
   position: absolute;
-  z-index: -0.5;
+  z-index: 2;
   right: 18vw;
   color: var(--white-color);
   top: 8vh;

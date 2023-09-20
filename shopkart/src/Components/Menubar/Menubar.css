@@ -22,6 +22,16 @@
   font-weight: 600;
   line-height: normal;
 }
+
+.our-products {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--white-color);
+}
+.our-products > div {
+  display: flex;
+  flex-direction: column;
+}
 @media (max-width: 480px) {
   .menubar-container > div {
     flex-direction: column;
@@ -33,5 +43,11 @@
   }
   .menubar-container > div > a {
     margin: 1rem 0;
+  }
+  .our-products {
+    border: none;
+  }
+  #product-list {
+    display: none;
   }
 }
